@@ -1,0 +1,2 @@
+# LOAN PREDICTION WEBAPP
+## Model used: SVM
