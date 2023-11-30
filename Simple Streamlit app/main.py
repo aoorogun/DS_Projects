@@ -12,8 +12,11 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import accuracy_score
 
-st.title('Streamlit Example')
-
+st.title('Streamlit for sample datasets')
+def add_footer():
+    footer = """O.A Orogun
+    """
+    st.markdown(footer, unsafe_allow_html=True)
 st.write("""
 # Explore different classifier and datasets
 Which one is the best?
@@ -107,3 +110,5 @@ plt.colorbar()
 
 #plt.show()
 st.pyplot(fig)
+
+add_footer()
